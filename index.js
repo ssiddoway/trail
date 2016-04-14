@@ -1,10 +1,4 @@
-var app = require('./server/app.js');
-var user = require('./user.js');
-
-/// user.js example
-
-var app = require('./server/app.js');
-
-app.get('/user/create', function(req, res) {
-
-})
+require("./server/app.js");
+require("./server/UMS.js");
+require("./server/comments.js");
+require("./server/postSaleItem.js");
